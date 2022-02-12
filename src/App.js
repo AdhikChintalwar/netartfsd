@@ -14,13 +14,13 @@ function App() {
     <div className='container-fluid' style={{backgroundColor:'#fffbd2'}}>
       <div class="container-fluid p-2  text-white text-center">
 
-        <img src={pic4}  className='rounded  img-fluid ' alt="Responsive image" style={{ height: '110px' }}></img>
+        <img src={pic4}  className='rounded  img-fluid ' alt="Responsive" style={{ height: '110px' }}></img>
 
       </div>
       <div className='mid-part container-fluid  d-flex' style={{ flex: 1 }}>
         <div className='image_box1 w-25 '>
 
-          <img src={pic1} alt="Responsive image" className=' rounded  img-fluid'></img>
+          <img src={pic1} alt="Responsive" className=' rounded  img-fluid'></img>
         </div>
 
         <div className='w-75 d-flex' style={{ flexDirection: 'column' }}>
@@ -33,7 +33,7 @@ function App() {
 
           {/* <img id='image' src={pic2}></img> */}
           <div className=' image d-flex h-50'>
-            <img alt="Responsive image" src={pic2} className='rounded  img-fluid' ></img>
+            <img alt="Responsive" src={pic2} className='rounded  img-fluid' ></img>
 
           </div>
 
@@ -48,7 +48,7 @@ function App() {
           CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
         </p>
         <div className=' d-flex ' style={{ justifyContent: 'center' }} >
-          <img alt="Responsive image" className='image-pic3 w-75 rounded  img-fluid ' src={pic3}></img>
+          <img alt="Responsive" className='image-pic3 w-75 rounded  img-fluid ' src={pic3}></img>
         </div>
         <p style={{fontFamily:'AmasisMTW01-Medium',fontStyle:'inherit'}}>Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors </p>
 
