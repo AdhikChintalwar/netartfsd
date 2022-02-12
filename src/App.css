@@ -1,9 +1,9 @@
 .body{
   width: 100%;
   /* height: 100%; */
-  height: 100vh;
+  height: 100%;
   background-color: #fffbcc;
-  flex:0;
+  flex:1;
 }
 /* .pic1{
   background-color:blueviolet ;
@@ -20,11 +20,16 @@
 .mid-part{
   width: 100%;
   height: 75%;
-  flex:0;
+  flex:1;
   /* background-color: antiquewhite; */
   flex-direction: row;
   display: flex;
-align-content: space-between;}
+align-content: center;}
+.image_box1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .end-part{
   background-color:#fffbcc;
   height: 30%;
@@ -34,17 +39,28 @@ align-content: space-between;}
   display: flex;
   flex-direction: column;
 } 
-
-#image-pic3{
+p{
+  font-family: 'AmasisMTW01-Medium';
+}
+@import url(//db.onlinewebfonts.com/c/6bac60ce2389f8c563041be926b66252?family=AmasisMTW01-Medium);
+@import url(//db.onlinewebfonts.com/c/876ef15b9ad3f53654d93aff21dfa239?family=AmasisMTW01-Black);
+@font-face {
+  font-family: 'AmasisMTW01-Black';
+  src: url(//db.onlinewebfonts.com/c/876ef15b9ad3f53654d93aff21dfa239?family=AmasisMTW01-Black);
+}
+@font-face {
+  font-family: 'AmasisMTW01-Medium';
+  src: url(//db.onlinewebfonts.com/c/6bac60ce2389f8c563041be926b66252?family=AmasisMTW01-Medium);
+}
+/* #image-pic3{
   max-width: 80%;
   height:65%;
- /* padding: 10px;*/
  align-self: center;
- /* background-color: #fffbcc; */
  flex:1;
-}
+} */
 .end_part2{
   background-color: #fffbcc;
+  
   width: 95%;
   /* display: flex; */
   flex-direction: column;
@@ -57,31 +73,76 @@ align-content: space-between;}
   border-right-width: 0px;
   border-bottom-width: 0px;
 
-  border-top-color:red;
+  border-top-color:#ec3237;
+}
+.red_box{
+  display: flex;
+  flex-direction: row;
 }
 
-@media screen and (min-width:180px) and (max-width:550px) {
+@media (max-width: 575.98px) { 
+.mid-part{
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  /* background-color: aqua; */
+  flex: 1;
+align-items: center;}
+.image_box1{
+  /* height: 40%; */
+  /* width: 100%; */
+  display: flex;
+  flex: 1;
+  /* background-color: #ec3237; */
+ }
+ .red_box{
+   /* background-color: #fffbcc; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+ }
+ .end_part2{
+   width: 99.5%;
+   height: fit-content;
+ }
+ .red_box p{
+   text-align: center;
+   display: inline-table;
+   text-orientation: sideways;
+ }
+ }
+
+@media (max-width: 767.98px) { 
+  
+  
+ }
+
+@media (max-width: 991.98px) { 
+
+ }
+
+@media (max-width: 1199.98px) {
+  
+}
+
+/* @media screen and (min-width:180px) and (max-width:550px) {
   .mid-part{
     flex-direction: row;
     align-items: center;
     flex:0;
   }
-  .pic1{
-    height: 230px;
-    align-self: center;
-  }
+  
   .mid-part div{
    height: 50%;
    width: 100%;
    justify-content: center;
   }
-  .mid-part#image{
+  .mid-part.image{
     height: auto;
     width: 100%;
   }
-  /* .mid-part p{
-    font-size: large;
-  } */
+  
 }
 @media screen and (min-width:800px)  {
   .mid-part{
@@ -93,11 +154,10 @@ align-content: space-between;}
     align-self: center;
   }
   .mid-part#div{
-   /* height: 50%;
-   width: 100%; */
+  
    justify-content: center;
   }
-  .mid-part#image{
+  .mid-part.image{
     height: auto;
     width: auto;
   }
@@ -107,13 +167,12 @@ align-content: space-between;}
     height: 450px;
     align-self: center;
   }
-  .mid-part#image{
+  .mid-part.image{
     width: auto;
-  /* max-width: 400px; */
   height: auto;
   }
     
    
 
 
-}
+} */
